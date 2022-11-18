@@ -1,0 +1,48 @@
+.aside-container {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 1.5rem;
+  /* align-items: center; */
+}
+
+.search-input {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d8d8d8;
+  font-size: 0.9rem;
+}
+
+.aside-title {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.aside-list,
+.tags-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.aside-list li {
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+
+.aside-list li a span {
+  position: absolute;
+  right: 0;
+}
+
+.tags-list a {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #d8d8d8;
+  padding: 0.5rem;
+  margin-bottom: 0.4rem;
+  margin-right: 0.3rem;
+  font-size: 0.7rem;
+  color: #666;
+}
