@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,6 +12,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/index.css" />
+
+    <script
+      src="https://kit.fontawesome.com/7ab408912e.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Personal Blog</title>
   </head>
@@ -35,15 +41,15 @@
               <h1 class="post-title">A Loving Heart is the Truest Wisdom</h1>
               <div class="about-post">
                 <div class="details">
-                  <img class="icon" src="./images/calendar.png" alt="" />
+                  <i class="fa-sharp fa-solid fa-calendar-days"></i>
                   <p>Nov 11, 2022</p>
                 </div>
                 <div class="details">
-                  <img class="icon" src="./images/category.png" alt="" />
+                  <i class="fa-sharp fa-solid fa-folder"></i>
                   <p>Nature</p>
                 </div>
                 <div class="details">
-                  <img class="icon" src="./images/comment.png" alt="" />
+                  <i class="fa-sharp fa-solid fa-comment"></i>
                   <p>4 Comments</p>
                 </div>
               </div>
@@ -61,15 +67,15 @@
               <h1 class="post-title">Paths Are Made by Walking</h1>
               <div class="about-post">
                 <div class="details">
-                  <img class="icon" src="./images/calendar.png" alt="" />
+                  <i class="fa-sharp fa-solid fa-calendar-days"></i>
                   <p>Oct 05, 2022</p>
                 </div>
                 <div class="details">
-                  <img class="icon" src="./images/category.png" alt="" />
+                  <i class="fa-sharp fa-solid fa-folder"></i>
                   <p>Lifestyle</p>
                 </div>
                 <div class="details">
-                  <img class="icon" src="./images/comment.png" alt="" />
+                  <i class="fa-sharp fa-solid fa-comment"></i>
                   <p>2 Comments</p>
                 </div>
               </div>
@@ -89,15 +95,15 @@
               </h1>
               <div class="about-post">
                 <div class="details">
-                  <img class="icon" src="./images/calendar.png" alt="" />
+                  <i class="fa-sharp fa-solid fa-calendar-days"></i>
                   <p>Aug 05, 2022</p>
                 </div>
                 <div class="details">
-                  <img class="icon" src="./images/category.png" alt="" />
+                  <i class="fa-sharp fa-solid fa-folder"></i>
                   <p>Travel</p>
                 </div>
                 <div class="details">
-                  <img class="icon" src="./images/comment.png" alt="" />
+                  <i class="fa-sharp fa-solid fa-comment"></i>
                   <p>8 Comments</p>
                 </div>
               </div>
@@ -142,9 +148,67 @@
 
         <h3 class="aside-title">Popular Articles</h3>
         <div class="popular-articles">
-          <div class="popular-article"></div>
-          <div class="popular-article"></div>
-          <div class="popular-article"></div>
+          <div class="popular-article">
+            <img src="./images/food.jpg" alt="" />
+            <div class="article">
+              <a href="#">A room without books is like a body without a soul.</a>
+              <div class="article-details">
+                <div>
+                  <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                  <span>June 2020, 2022</span>
+                </div>
+                <div>
+                  <i class="fa-sharp fa-solid fa-user"></i>
+                  <span>John Smoth</span>
+                </div>
+                <div>
+                  <i class="fa-sharp fa-solid fa-comment"></i>
+                  <span>10</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popular-article">
+            <img src="./images/food.jpg" alt="" />
+            <div class="article">
+              <a href="#">So many books, so little time.</a>
+              <div class="article-details">
+                <div>
+                  <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                  <span>June 2020, 2022</span>
+                </div>
+                <div>
+                  <i class="fa-sharp fa-solid fa-user"></i>
+                  <span>Peter Tosh</span>
+                </div>
+                <div>
+                  <i class="fa-sharp fa-solid fa-comment"></i>
+                  <span>10</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popular-article">
+            <img src="./images/tech.jpg" alt="" />
+            <div class="article">
+              <a href="#"
+                >You only live once, but if you do it right, once is enough.</a
+              >
+              <div class="article-details">
+                <div>
+                  <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                  <span>June 2020, 2022</span>
+                </div>
+                <div>
+                  <i class="fa-sharp fa-solid fa-user"></i>
+                  <span>Bob Marley</span>
+                </div>
+                <div>
+                  <i class="fa-sharp fa-solid fa-comment"></i>
+                  <span>20</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="tags">
@@ -163,9 +227,18 @@
 
         <div class="newsletter">
           <h3 class="aside-title">Newsletter</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
-          <input type="email" name="" id="" placeholder="Email Address" />
-          <button>Subscribe</button>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit consectetur
+            adipisicing elit
+          </p>
+          <input
+            class="newsletter-input"
+            type="email"
+            name=""
+            id=""
+            placeholder="Email Address"
+          />
+          <button class="newsletter-btn">Subscribe</button>
         </div>
 
         <div class="archives">
