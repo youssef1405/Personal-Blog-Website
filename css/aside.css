@@ -36,6 +36,11 @@
   border-bottom: none;
 }
 
+.aside-list a {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
 .aside-list li a span {
   position: absolute;
   right: 0;
@@ -50,13 +55,18 @@
 
 .tags-list a {
   display: inline-block;
-  text-decoration: none;
   border: 1px solid #d8d8d8;
   padding: 0.5rem;
   margin-bottom: 0.4rem;
   margin-right: 0.3rem;
   font-size: 0.7rem;
   color: #666;
+  font-weight: 700;
+}
+
+.tags-list a:hover {
+  background-color: #ffa600;
+  color: #fff;
 }
 
 /*Newsletter section*/
@@ -87,6 +97,13 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-weight: 700;
+}
+
+.tags-list a:hover,
+.newsletter-btn:hover {
+  background-color: #ffa600;
+  color: #fff;
 }
 
 .popular-article {
@@ -107,7 +124,6 @@
   display: block;
   text-decoration: none;
   margin-bottom: 1.5em;
-  color: orange;
 }
 
 .article-details {

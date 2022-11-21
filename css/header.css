@@ -1,5 +1,4 @@
-header {
-  /* background-color: #fff; */
+#header {
   background-color: #3b3b3b;
   padding: 1.5rem;
   display: flex;
@@ -9,15 +8,13 @@ header {
   margin-bottom: 4rem;
 }
 
-header h1 {
+#header h1 {
   margin: 0;
-  /* color: #3b3b3b; */
   color: whitesmoke;
-  /* align-self: flex-start; */
   font-size: 1.5rem;
 }
 
-nav ul {
+#menu ul {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -25,11 +22,14 @@ nav ul {
   padding: 0;
   margin: 0;
 }
-ul li a {
+.nav-link {
   text-decoration: none;
   font-size: 0.9rem;
-  color: orange;
   font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #fff;
 }
 
 /* @media (min-width: 400px) {
