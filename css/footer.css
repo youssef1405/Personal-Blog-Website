@@ -6,6 +6,13 @@
 }
 
 .footer p {
-  margin: 0;
   font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.social-medial {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  cursor: pointer;
 }
