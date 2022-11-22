@@ -22,3 +22,46 @@ a {
 a:hover {
   color: #3b3b3b;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:
+    minmax(150px, auto) minmax(200px, auto) minmax(200px, auto)
+    150px;
+  grid-template-areas:
+    'header'
+    'main'
+    'aside'
+    'footer';
+}
+
+@media (min-width: 900px) {
+  .container {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 150px minmax(200px, auto) 150px;
+    grid-template-areas:
+      'header header'
+      'main aside'
+      'footer footer';
+  }
+
+  #header {
+    grid-area: header;
+  }
+
+  #main-container {
+    grid-area: main;
+  }
+
+  #aside-container {
+    grid-area: aside;
+  }
+
+  #footer {
+    grid-area: footer;
+  }
+}

@@ -1,4 +1,4 @@
-.aside-container {
+#aside-container {
   background-color: #f8f9fa;
   display: flex;
   flex-direction: column;
@@ -129,5 +129,5 @@
 .article-details {
   display: flex;
   gap: 1rem;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
