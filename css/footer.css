@@ -5,8 +5,8 @@
   text-align: center;
 }
 
-#footer p {
-  font-size: 0.8rem;
+#footer .title {
+  font-size: 0.9rem;
   margin-bottom: 2rem;
 }
 

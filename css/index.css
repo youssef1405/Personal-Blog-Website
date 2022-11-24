@@ -15,6 +15,7 @@ body {
   color: #666;
 }
 
+/*Targeting all links*/
 a {
   color: orange;
   text-decoration: none;
@@ -24,6 +25,7 @@ a:hover {
   color: #3b3b3b;
 }
 
+/*Homepage structure - small devices*/
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -52,6 +54,8 @@ a:hover {
 #footer {
   grid-area: footer;
 }
+
+/*homepage structure - large devices*/
 
 @media (min-width: 900px) {
   .container {

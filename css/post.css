@@ -35,7 +35,7 @@
   align-items: center;
 }
 
-.details p {
+.details .info {
   margin: 0;
   font-size: 0.8rem;
   color: #bfbfbf;

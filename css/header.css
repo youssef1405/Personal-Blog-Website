@@ -19,7 +19,7 @@
   color: orange;
 }
 
-#menu ul {
+.nav-list {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -42,10 +42,10 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  #header h1 {
+  #website-name {
     margin: 0;
   }
-  #menu ul {
+  .nav-list {
     flex-direction: row;
   }
 }
